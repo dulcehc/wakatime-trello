@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  color: #444;
+  background: #eee;
+}
+
+.ctm-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+}
+
+.ctm-table tr {
+  border-color: lighten(#34495E, 10%);
+}
+
+.ctm-table th, td {
+  margin: .5em 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.ctm-table th, td:before {
+  color: #21d3ebcb;
+  font-size: 1.2em;
+}
