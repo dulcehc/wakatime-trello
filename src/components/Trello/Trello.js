@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import './Trello.css';
 
 const apiData = {
-  key: '983d58bda5b2717b3acff835fdb1b400',
-  token: '4dd2a9459992e00f91b7d34f3ff3a1ca7f606921e12c02ce8b19b74cf65e043e',
-  idList: "5b3d742499c8cda9a8ff07db"
+  key: '',
+  token: '',
+  idList: ''
 }
 class Trello extends Component {
   constructor(props) {
