@@ -5,7 +5,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Wakatime/>
+        <h1>Coding activity Last 7 days</h1>
+        <Wakatime/>
       </div>
     );
   }

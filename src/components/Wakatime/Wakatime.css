@@ -7,6 +7,11 @@ body {
   background: #eee;
 }
 
+.wakatime {
+  display: flex;
+  align-items: center;
+}
+
 .ctm-table {
   background: #34495E;
   color: #fff;
@@ -14,6 +19,7 @@ body {
   overflow: hidden;
   width: 300px;
   margin: 20px;
+  display: inline-block;
 }
 
 .ctm-table tr {
@@ -22,11 +28,15 @@ body {
 
 .ctm-table th, td {
   margin: .5em 1em;
-  padding: 1em;
+  padding: 1em 1.5em;
   text-align: center;
 }
 
 .ctm-table th, td:before {
   color: #21d3ebcb;
   font-size: 1.2em;
+}
+
+.error-msg {
+  color: #cf0909cb;
 }
