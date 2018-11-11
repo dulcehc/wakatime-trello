@@ -4,8 +4,9 @@
   --orange: #ff4a00;
 }
 
-.trello {
-  display: inline-block;
+.trello iframe {
+  display: block;
+  margin-bottom: 10%;
 }
 
 .btn {

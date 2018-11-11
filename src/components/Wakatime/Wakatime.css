@@ -10,6 +10,7 @@ body {
 .wakatime {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .ctm-table {
