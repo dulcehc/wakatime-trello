@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/wakatime-trello/precache-manifest.de059ac76d17b458cb079b9684281e0e.js"
+  "/wakatime-trello/precache-manifest.c321b9d6434b91af55ea8504b98ee543.js"
 );
 
 workbox.clientsClaim();
