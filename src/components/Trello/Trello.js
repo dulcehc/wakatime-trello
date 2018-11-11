@@ -66,6 +66,9 @@ class Trello extends Component {
 
     return (
       <div className="trello">
+        <blockquote class="trello-board-compact">
+          <a href="https://trello.com/b/U4hPL2dX/wakatime-activity-code">Trello Board</a>
+        </blockquote>
         <button className="btn" onClick={ (e) => this.createCard(this.props.data, e) }>
           { this.props.name }
         </button>
